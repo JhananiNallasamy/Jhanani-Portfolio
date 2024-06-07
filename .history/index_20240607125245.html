@@ -1,0 +1,1356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/boxicons/2.0.7/css/boxicons.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#a789d4">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title> Jhanani's Portfolio </title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Jhanani</a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item ">
+                        <a href="#home" class="nav__link">
+                            <i class='bx bx-home'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item ">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class='bx bx-briefcase-alt-2'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-dots'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--=============== theme change button ===============-->
+            <i class='bx bx-moon change-theme change-theme-button' id="theme-button"></i>
+
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hello, I'm</span>
+                    <h1 class="home__name">Jhanani N</h1>
+                    <h3 class="home__education"> Final year BTech student specializing in AI and Data Science.</h3>
+
+                    <div class="home__button">
+                        <a download="" href="assets/pdf/Jhanani-Resume.pdf" class="button button--ghost">
+                            Download CV
+                        </a>
+
+                        <a href="#about" class="button">About</a>
+                    </div>
+                </div>
+
+                <div class="home__handle">
+                    <img src="assets/img/perfil.png" alt="" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/jhanani-n-b4bab12b6" target="_blank" class="home__social-link">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://github.com/JhananiNallasamy" target="_blank" class="home__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle">My Intro</span>
+            <h2 class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+                <img src="assets/img/about.jpg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <a href="#experience" style="display: inline-block; width: 100%; height: 100%;">
+                            <div class="about__box" style="cursor: pointer;">
+                                <i class='bx bx-award about__icon'></i>
+                                <h3 class="about__title">Experience</h3>
+                                <span class="about__subtitle" style="color: rgba(153, 183, 209, 0.821);">Fresher</span>
+                            </div>
+                        </a>                        
+
+                        <a href="#intern" style="display: inline-block; width: 100%; height: 100%;">
+                            <div class="about__box" style="width: 100%; height: 100%; cursor: pointer;">
+                                <i class='bx bx-briefcase-alt about__icon'></i>
+                                <h3 class="about__title">Internships</h3>
+                                <span class="about__subtitle" style="color: rgba(153, 183, 209, 0.821);">6 Interns</span>
+                            </div>
+                        </a>
+
+                        <a href="#work">
+                        <div class="about__box">
+                            <i class='bx bx-support about__icon'></i>
+                            <h3 class="about__title">Projects</h3>
+                            <span class="about__subtitle" style="color: rgba(153, 183, 209, 0.821);">6 projects</span>
+                        </div>
+                        </a>
+                    </div>
+
+                    <p class="about__description">
+                        I am a Dedicated and detail-oriented final year BTech student specializing in Artificial Intelligence and Data Science with hands-on experience in data analytics, image processing, and web development. 
+                        <br> <br> Proven ability to handle real-time projects and internships effectively. Strong analytical skills, proficient in Python, Excel, and Power BI, with a passion for learning new technologies and languages.
+                    </p>
+
+                    <a href="#contact" class="button about__button-contact">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
+            <span class="section__subtitle">My Abilities</span>
+            <h2 class="section__title">My Experience</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Frontend Web Development</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Javascript</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Bootstrap</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Data Analysis</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Numpy</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Pandas</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Excel</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Power BI</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">R</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Other Skills</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Image Processing using OpenCV</h3><br>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>                   
+
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!--=============== INTERNSHIPS ===============-->
+        <section class="services section" id="intern">
+            <span class="section__subtitle">Hands-On</span>
+            <h2 class="section__title">Internships</h2>
+
+            <div class="services__container container grid">
+                <div class="services__card">
+                    <div class="serv">
+                        <h3 class="services__title">Frontend Web <br> Development </h3>
+
+                        <span class="services__button">
+                            See More <i class='bx bx-right-arrow services__icon'></i>
+                        </span>
+                    </div>
+
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Prodigy Infotech <br> | May 2024 - June 2024 |</h3>
+
+                            <p class="services__modal-description">
+                                Gained hands-on experience in developing various web applications. I honed my skills in HTML, CSS, and JavaScript, and had the opportunity to work on multiple projects. 
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Weather Application using API 
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Responsive E-commerce Website using <br>HTML, CSS, and JS
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Stopwatch using HTML, CSS, and JavaScript.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Calculator using HTML, CSS, and JavaScript.
+                                    </p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">Artificial Intelligence</h3>
+
+                    <span class="services__button">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+                            <h3 class="services__modal-title">TANSAM (Tidal Park,Tharamani) <br>
+                               | Dec 2023-Dec 2023 |
+                            </h3>
+
+                            <p class="services__modal-description">
+                                Worked on AI-Based Gasket Inspection using Data Science.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Received directive from a car parts manufacturing company in Ambattur Industrial Estate for AI solution to detect defects (missing holes, eyelets, burnt edges, cracks, rust) in metallic gaskets. 
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                       After acknowledging the lack of sufficient dataset, I Created my own dataset Using a single gasket image, introducing defects via online tools.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                      Annotated the dataset and organised into defect categories and employed CNN for accurate defect prediction.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Integrated AI model into company's workflow post rigorous testing and validation.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Provided comprehensive documentation and training to facilitate the adoption and utilization of the AI-based gasket inspection system by company personnel.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">Data <br> Analytics</h3>
+
+                    <span class="services__button">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">TANSAM (Tidal Park,Tharamani) <br>
+                                | Dec 2023-Dec 2023 |
+                             </h3>
+
+                            <p class="services__modal-description">
+                                Completed an internship on "Data Analytics using MindSphere".
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title"> Web Development using Prompt Engineering </h3>
+
+                    <span class="services__button">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Adventure Technologies, Tambaram. </h3>
+
+                            <p class="services__modal-description">
+                                Completed 3 months internship on "Web Development using Prompt Engineering" in Adventure Technologies, Tambaram.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="services__card">
+                    <h3 class="services__title"> Image Processing</h3>
+
+                    <span class="services__button">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">NSIC-Technical Services Centre <br>
+                                (Guindy Industrial Estate,Ekkaduthangal)<br><br>|Jul 2023-Jul 2023|
+                             </h3>
+
+                            <p class="services__modal-description">
+                                Internship on Image Processing using OpenCV
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===============CERTIFICATIONS===============-->
+        
+        <section class="services section">
+            <span class="section__subtitle"></span>
+            <h2 class="section__title">Certifications</h2>
+        
+            <div class="services__container container grid">
+                <!-- Data Analysis using Excel and Power BI -->
+                <div class="services__card">
+                    <div class="serv">
+                        <h3 class="services__title">Data Analysis using Excel and Power BI <br> <span style="color: rgb(200, 200, 200); font-size: 12px; font-family: 'Courier New', Courier, monospace;">
+                            - NIIT:Technical Services, August 2022
+                        </span>
+                        
+                        </h3>
+                        <span class="services__button">
+                            See More <i class='bx bx-right-arrow services__icon'></i>
+                        </span>
+                    </div>
+        
+                    <div class="services__modal" style="display: flex; justify-content: center; align-items: center; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
+                        <div class="services__modal-content" style="background: #16012b; padding: 20px; border-radius: 8px; max-height: 80vh; width: 90%; max-width: 600px; overflow-y: auto; box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
+                            <i class='bx bx-x services__modal-close' style="position: absolute; top: 10px; right: 10px; cursor: pointer;"></i>
+                            <h3 class="services__modal-title">Data Analysis Using Excel and PowerBI</h3>
+                            <img src="assets/img/certificates/Excel and PowerBI.png" alt="Data Analysis Using Excel and PowerBI" class="certificate-image" style="max-width: 100%; height: auto;">
+                        </div>
+                    </div>
+                    
+                </div>
+        
+                <!-- Data Exploration Using Python -->
+
+                <div class="services__card">
+                    <div class="serv">
+                        <h3 class="services__title"> Data Exploration Using Python <br> <span style="color: rgb(200, 200, 200); font-size: 12px; font-family: 'Courier New', Courier, monospace;">
+                            - NIIT:Technical Services, August 2022
+                        </span>
+                        
+                        </h3>
+                        <span class="services__button">
+                            See More <i class='bx bx-right-arrow services__icon'></i>
+                        </span>
+                    </div>
+        
+                    <div class="services__modal" style="display: flex; justify-content: center; align-items: center; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
+                        <div class="services__modal-content" style="background: #16012b; padding: 20px; border-radius: 8px; max-height: 80vh; width: 90%; max-width: 600px; overflow-y: auto; box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
+                            <i class='bx bx-x services__modal-close' style="position: absolute; top: 10px; right: 10px; cursor: pointer;"></i>
+                            <h3 class="services__modal-title">Data Exploration Using Python</h3>
+                            <img src="assets/img/certificates/Data Exploration Using Python.png" alt="Data Exploration Using Python" class="certificate-image" style="max-width: 100%; height: auto;">
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <!-- Data Analytics - Beginner Level from Coursera -->
+                
+                <div class="services__card">
+                    <div class="serv">
+                        <h3 class="services__title"> Data Analytics - Beginner Level <br> <span style="color: rgb(200, 200, 200); font-size: 12px; font-family: 'Courier New', Courier, monospace;">
+                            - Coursera
+                        </span>
+                        
+                        </h3>
+                        <span class="services__button">
+                            See More <i class='bx bx-right-arrow services__icon'></i>
+                        </span>
+                    </div>
+        
+                    <div class="services__modal" style="display: flex; justify-content: center; align-items: center; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
+                        <div class="services__modal-content" style="background: #16012b; padding: 20px; border-radius: 8px; max-height: 80vh; width: 90%; max-width: 600px; overflow-y: auto; box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
+                            <i class='bx bx-x services__modal-close' style="position: absolute; top: 10px; right: 10px; cursor: pointer;"></i>
+                            <h3 class="services__modal-title">Data Analytics - Beginner Level from Coursera</h3>
+                            <img src="assets/img/certificates/Data Analytics - Beginner Level.jpg" alt="Data Analytics - Beginner Level from Coursera" class="certificate-image" style="max-width: 100%; height: auto;">
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <!-- Foundations of cyber security -->
+                <div class="services__card">
+                    <div class="serv">
+                        <h3 class="services__title"> Foundations of Cyber Security <br> <span style="color: rgb(200, 200, 200); font-size: 12px; font-family: 'Courier New', Courier, monospace;">
+                            - Coursera
+                        </span>
+                        
+                        </h3>
+                        <span class="services__button">
+                            See More <i class='bx bx-right-arrow services__icon'></i>
+                        </span>
+                    </div>
+        
+                    <div class="services__modal" style="display: flex; justify-content: center; align-items: center; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
+                        <div class="services__modal-content" style="background: #16012b; padding: 20px; border-radius: 8px; max-height: 80vh; width: 90%; max-width: 600px; overflow-y: auto; box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
+                            <i class='bx bx-x services__modal-close' style="position: absolute; top: 10px; right: 10px; cursor: pointer;"></i>
+                            <h3 class="services__modal-title">Foundations of Cyber Security</h3>
+                            <img src="assets/img/certificates/Foundations of Cyber Security.jpg" alt="Foundations of Cyber Security" class="certificate-image" style="max-width: 100%; height: auto;">
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <!-- sql -->
+                <div class="services__card">
+                    <div class="serv">
+                        <h3 class="services__title">Introduction to SQL and Database <br> <span style="color: rgb(200, 200, 200); font-size: 12px; font-family: 'Courier New', Courier, monospace;">
+                            - GreatLearning
+                        </span>
+                        
+                        </h3>
+                        <span class="services__button">
+                            See More <i class='bx bx-right-arrow services__icon'></i>
+                        </span>
+                    </div>
+        
+                    <div class="services__modal" style="display: flex; justify-content: center; align-items: center; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
+                        <div class="services__modal-content" style="background: #16012b; padding: 20px; border-radius: 8px; max-height: 80vh; width: 90%; max-width: 600px; overflow-y: auto; box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
+                            <i class='bx bx-x services__modal-close' style="position: absolute; top: 10px; right: 10px; cursor: pointer;"></i>
+                            <h3 class="services__modal-title">Introduction to SQL and Database</h3>
+                            <img src="assets/img/certificates/sql.png" alt="SQL" class="certificate-image" style="max-width: 100%; height: auto;">
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <!-- Prompt engineering -->
+
+                <div class="services__card">
+                    <div class="serv">
+                        <h3 class="services__title"> Prompt Engineering using CLAUDE AI<br> <span style="color: rgb(200, 200, 200); font-size: 12px; font-family: 'Courier New', Courier, monospace;">
+                            - Skill Nation
+                        </span>
+                        
+                        </h3>
+                        <span class="services__button">
+                            See More <i class='bx bx-right-arrow services__icon'></i>
+                        </span>
+                    </div>
+        
+                    <div class="services__modal" style="display: flex; justify-content: center; align-items: center; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
+                        <div class="services__modal-content" style="background: #16012b; padding: 20px; border-radius: 8px; max-height: 80vh; width: 90%; max-width: 600px; overflow-y: auto; box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
+                            <i class='bx bx-x services__modal-close' style="position: absolute; top: 10px; right: 10px; cursor: pointer;"></i>
+                            <h3 class="services__modal-title">Prompt Engineering using Claude AI </h3>
+                            <img src="assets/img/certificates/Claude-AI Prompt Engineering.jpg" alt="Live Masterclass on CLAUDE AI" class="certificate-image" style="max-width: 100%; height: auto;">
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <!-- Web Development Using Prompt Engineering -->
+
+                <div class="services__card">
+                    <div class="serv">
+                        <h3 class="services__title"> Full Stack Development and Prompt Engineering<br> <span style="color: rgb(200, 200, 200); font-size: 12px; font-family: 'Courier New', Courier, monospace;">
+                            - Adventure Technologies, Tambaram
+                        </span>
+                        
+                        </h3>
+                        <span class="services__button">
+                            See More <i class='bx bx-right-arrow services__icon'></i>
+                        </span>
+                    </div>
+        
+                    <div class="services__modal" style="display: flex; justify-content: center; align-items: center; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
+                        <div class="services__modal-content" style="background: #16012b; padding: 20px; border-radius: 8px; max-height: 80vh; width: 90%; max-width: 600px; overflow-y: auto; box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
+                            <i class='bx bx-x services__modal-close' style="position: absolute; top: 10px; right: 10px; cursor: pointer;"></i>
+                            <h3 class="services__modal-title">Full Stack Development and Prompt Engineering </h3>
+                            <img src="assets/img/certificates/Full Stack Development and Prompt Engineering.jpg" alt="Full Stack Development and Prompt Engineering" class="certificate-image" style="max-width: 100%; height: auto;">
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </section>
+        
+        <style>
+        .certificate-image {
+    width: 100%;
+    height: 90%;
+    margin-top: 10px;
+    }
+
+.certificate-description {
+    margin-top: 10px;
+    font-size: 14px;
+    }
+        </style>        
+
+        <!--=============== PROJECTS ===============-->
+        <section class="work section" id="work">
+            <span class="section__subtitle">My Works</span>
+            <h2 class="section__title">Projects</h2>
+
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter='all'>All</span>
+                <span class=" work__item" data-filter='.web'>Web Development</span>
+                <span class=" work__item" data-filter='.movil'>AI Based Projects</span>
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card mix web">
+                    <img src="assets/img/E-Commerce.jpeg" alt="" class="work__img">
+
+                    <h3 class="work__title">E-commerce Website</h3>
+
+                    <a href="https://e-commerce-website-deployment.vercel.app/" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix web">
+                    <img src="assets/img/Calculator.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Calculator using HTML, CSS, JS</h3>
+
+                    <a href="https://calculator-silk-six-73.vercel.app/" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix web">
+                    <img src="assets/img/stopwatch.jpeg" alt="" class="work__img">
+
+                    <h3 class="work__title">Stopwatch</h3>
+
+                    <a href="https://stopwatch-blond-five.vercel.app/" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix web">
+                    <img src="assets/img/To-Do List.png" alt="" class="work__img">
+
+                    <h3 class="work__title">To-Do List</h3>
+
+                    <a href="https://to-do-list-eight-eta-78.vercel.app/" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+
+                <!--=========Gasket Detection============-->
+
+                <div class="services__card">
+                    <div class="serv">
+                        <img src="assets/img/gasket.jpg" alt="" class="work__img">
+
+                        <h3 class="services__title">Gasket Detection using AI<br> <span style="color: rgb(200, 200, 200); font-size: 12px; font-family: 'Courier New', Courier, monospace;">
+                        </span>
+                        
+                        </h3>
+                        <span class="services__button">
+                            See More <i class='bx bx-right-arrow services__icon'></i>
+                        </span>
+                    </div>
+        
+                    <div class="services__modal" style="display: flex; justify-content: center; align-items: center; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
+                        <div class="services__modal-content" style="background: #16012b; padding: 20px; border-radius: 8px; max-height: 80vh; width: 90%; max-width: 600px; overflow-y: auto; box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
+                            <i class='bx bx-x services__modal-close' style="position: absolute; top: 10px; right: 10px; cursor: pointer;"></i>
+                            <h3 class="services__modal-title">Output for Gasket Detection </h3>
+                            <img src="assets/pdf/gasket output.jpg" alt="Gasket Output" class="certificate-image" style="max-width: 100%; height: auto;">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Medicine Recommendation System -->
+                <div class="services__card">
+                    <div class="serv">
+                        <img src="assets/img/medicine_img.png" alt="" class="work__img">
+
+                        <h3 class="services__title">Medicine Recommendation System <br>using Machine Learning and Data Science<span style="color: rgb(211, 205, 205); font-size: 12px;  Courier, monospace;">
+                        </span>
+                        
+                        </h3>
+                        <span class="services__button">
+                            See More <i class='bx bx-right-arrow services__icon'></i>
+                        </span>
+                    </div>
+        
+                    <div class="services__modal" style="display: flex; justify-content: center; align-items: center; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
+                        <div class="services__modal-content" style="background: #16012b; padding: 20px; border-radius: 8px; max-height: 80vh; width: 90%; max-width: 600px; overflow-y: auto; box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
+                            <i class='bx bx-x services__modal-close' style="position: absolute; top: 10px; right: 10px; cursor: pointer;"></i>
+                            <h3 class="services__modal-title">Output for Medicine Recommendation System </h3>
+                            <video src="assets/img/medicine_output.mp4" alt="medicine_output video" class="certificate-image" style="max-width: 100%; height: auto;" controls muted>
+                            </video>
+                            <span class="medicine documentation">
+                                <a href="assets/pdf/medicine_recommendation _system_jupyter_code.html" target="_blank" style="color: rgb(184, 142, 204);">View the Code <i class='bx bx-right-arrow services__icon'></i></a>
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ============weather application================== -->
+                <div class="work__card mix web">
+                    <img src="assets/img/weather.png" alt="" class="work__img">
+
+                    <h3 class="work__title">WeatherApp using API</h3>
+
+                    <a href="https://codsoft-internship-sepia.vercel.app/" class="work__button">
+                        Demo <i class='bx bx-right-arrow work__icon'></i>
+                    </a>
+                </div>
+                
+                
+                <!-- ============ship detection================== -->
+
+                <!-- <div class="services__card">
+                    <div class="serv">
+                        <img src="assets/img/shipdetection.jpeg" alt="" class="work__img">
+
+                        <h3 class="services__title">AI based ShipDetection Detection<br> <span style="color: rgb(200, 200, 200); font-size: 12px; font-family: 'Courier New', Courier, monospace;">
+                        </span>
+                        
+                        </h3>
+                        <span class="services__button">
+                            See More <i class='bx bx-right-arrow services__icon'></i>
+                        </span>
+                    </div>
+        
+                    <div class="services__modal" style="display: flex; justify-content: center; align-items: center; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
+                        <div class="services__modal-content" style="background: #16012b; padding: 20px; border-radius: 8px; max-height: 80vh; width: 90%; max-width: 600px; overflow-y: auto; box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
+                            <i class='bx bx-x services__modal-close' style="position: absolute; top: 10px; right: 10px; cursor: pointer;"></i>
+                            <h3 class="services__modal-title">Output for Ship Detection </h3>
+                            <video src="assets/img/ship detection output.mp4" alt="shipdetection video" class="certificate-image" style="max-width: 100%; height: auto;" controls muted>
+                            </video>
+                            <span class="shipdetection documentation">
+                                <a href="assets/pdf/ShipDetection Project Documentation.pdf" target="_blank" style="color: rgb(184, 142, 204);"> See Documentation <i class='bx bx-right-arrow services__icon'></i></a>
+                            </span>
+
+                        </div>
+                    </div>
+                </div> -->
+                
+
+
+
+            </div>
+        </section>
+        <!-- =========HACKATHONS, SYMPOSIUMS AND WORKSHOPS ATTENDED -->
+        <section class="services section" id="experience">
+            <span class="section__subtitle"></span>
+            <h2 class="section__title"></h2>
+
+            <div class="services__container container grid">
+                <div class="services__card">
+                    <div class="serv">
+                        <h3 class="services__title">Hackathons<br>  </h3>
+
+                        <span class="services__button">
+                            See More <i class='bx bx-right-arrow services__icon'></i>
+                        </span>
+                    </div>
+
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">AI - Tech Expo'24 <br> | 2nd April 2024 |</h3>
+
+                            <p class="services__modal-description">
+                                Participated in AI-Tech Expo'24 held on 2nd April 2024 at Velammal Engineering College,Chennai-66.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">Workshops Attended</h3>
+
+                    <span class="services__button">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+                            <h3 class="services__modal-title">Workshops Attended </h3>
+
+
+                            <p class="services__modal-description">
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Design Thinking - 21st Annual ISTE Engineering Students Convention, April 2023
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Participated in PROJECT UDAAN - Educational visit to ADANI FACILITIES at KATUPALLI on 20th July 2023                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Hands-on Workshop on AWS CLOUD - December 2, 2023 and December 10, 2023.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Live Masterclass: Claude AI
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                     Participated in Animations and VFX Workshop at Arena Animations, Velachery.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">Conferences<br> </h3>
+
+                    <span class="services__button">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title"> Conferences </h3>
+
+                            <p class="services__modal-description">
+                                Participated and Presented paper entitled AI - Based Port Surveillance and Encroachment Detection in NCAIBIA'24 held on 27th March 2024 at Velammal Engineering College, Surapet, Chennai-66.                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <h3 class="services__title">Symposiums and Paper Presentations</h3>
+
+                    <span class="services__button">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Symposiums and Paper Presentations</h3>
+
+                            <p class="services__modal-description">
+                            </p>
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Certificate of Participation in "PITCHING STONE" Conducted by the Department of Information Technology at Sri Venkateshwara College Of Engineering !!
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Presentated a paper in a symposium conducted at Sri Venkateshwara College Of Engineering.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+<!--=============== LEADERSHIP EXPERIENCES===============-->
+<section class="skills section" id="skills">
+    <span class="section__subtitle"></span>
+    <h2 class="section__title">Leadership Experiences</h2>
+
+    <div class="skills__containers" style="display: flex; flex-wrap: wrap; gap: 20px;">
+        <div class="skills__container" style="flex: 1 1 calc(50% - 20px); box-sizing: border-box;">
+            <div class="skills__content">
+                <h3 class="skills__title">Campus Incharge of Bridge projects for 3 years</h3>
+                <div class="skills__box">
+                    <div class="skills__group">
+                        <div class="skills__data">
+                            <div>
+                                <span class="skills__level">Overall Incharge of Bridge project for Avadi and Thirumullaivoyal: Civilizing underprivileged refugee children for past 3 years.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills__container" style="flex: 1 1 calc(50% - 20px); box-sizing: border-box;">
+            <div class="skills__content">
+                <h3 class="skills__title">Content Creation Team Head</h3>
+                <div class="skills__box">
+                    <div class="skills__group">
+                        <div class="skills__data">
+                            <div>
+                                <span class="skills__level">Being Content Creation Team Head in Youth Red Cross Club of Velammal Engineering College, I ensure coordination among my team members and supervise the work done by them, assign new tasks and help them to write contents for documentation of all the events conducted by YRC and create Captions for all the Social Media Posts of our club. </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Media query for responsiveness -->
+    <style>
+        @media (max-width: 768px) {
+            .skills__container {
+                flex: 1 1 100% !important;
+            }
+        }
+    </style>
+</section>
+        <!--=============== Activities and Accomplishments ===============-->
+        <section class="testimonial section">
+            <span class="section__subtitle">Other Activities</span>
+            <h2 class="section__title">Honors and Accomplishments</h2>
+
+            <div class="testimonial__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/elocution.jpeg" alt="elocution" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Tamil Elocution Competition</h3>
+                        <p class="testimonial__description">
+                            Represented Velammal Engineering College in Tamil Elocution Competition held at Thiruvallur district level.
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/abacus.jpeg" alt="abacus" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Abacus</h3>
+                        <p class="testimonial__description">
+                            Received 2nd prize in Abacus from Semas Academy
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/socialservice.jpeg" alt="socialservice" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Social Services</h3>
+                        <p class="testimonial__description">
+                            Recieved an award from <b> "Lure of Life - NGO"</b> for my contribution to project <b>"THE BRIDGE"</b> by <b>EDUCATING THE UNEDUCATED </b>children of the slum area.
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/grammar.jpg" alt="grammar" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Tamil Grammar Capsules</h3>
+                        <p class="testimonial__description">
+                            First and Second prizes in Tamil Grammar Capsule conducted across entire Velammal Groups of Institutions for consecutive 3 years.
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/poem.jpeg" alt="poem" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Poem Writing Competitions</h3>
+                        <p class="testimonial__description">
+                            Have participated at many English and Tamil Poem Writing Competitions.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section>
+
+        <!-- ==============ATTRIBUTES AND HOBBIES -->
+        <section class="skills section" id="skills">
+            <span class="section__subtitle"></span>
+            <h2 class="section__title">Attributes and Hobbies</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Attributes</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Determined Hardworker</h3>
+                                    <span class="skills__level"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Team Player</h3>
+                                    <span class="skills__level"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Good Communicator</h3>
+                                    <span class="skills__level"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Logical Thinker</h3>
+                                    <span class="skills__level"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Quick Learner</h3>
+                                    <span class="skills__level"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Leadership Qualities</h3>
+                                    <span class="skills__level"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Flexible</h3>
+                                    <span class="skills__level"></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Hobbies and Interest </h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Cycling</h3>
+                                    <span class="skills__level"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Listening Music</h3>
+                                    <span class="skills__level"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Learning</h3>
+                                    <span class="skills__level"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Watching Series</h3>
+                                    <span class="skills__level"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Poem Writing</h3>
+                                    <span class="skills__level"></span>
+                                </div>
+                            </div>
+
+                            
+
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+
+
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <span class="section__subtitle">Get in touch</span>
+            <h3 class="section__title">Contact Me</h3>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title contact__title-info">Talk to me</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">jhananinallasamy@gmail.com</span>
+
+                            <a href="mailto:jhananinallasamy@gmail.com" target="_blank" class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-whatsapp contact__card-icon'></i>
+                            <h3 class="contact__card-title">Whatsapp</h3>
+                            <span class="contact__card-data">7904662267</span>
+
+                            <a href="https://api.whatsapp.com/send?phone=+917904662267&text=Hey there!" target="_blank"
+                                class="contact__button">
+                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/643d890e-5da7-4a22-9674-713d9baa78fd/mu7sSqhU68.json" background="##FFFFFF" speed="1" style="width: 400px; height: 400px" loop autoplay direction="1" mode="normal"></lottie-player>
+                </div>
+
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Jhanani</h1>
+
+            <ul class="footer__list">
+
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Home</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#skills" class="footer__link">Skills</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#work" class="footer__link">Work</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#contact" class="footer__link">Contact</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#work" class="footer__link">Project</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+
+                <li class="footer__social-item">
+                    <a href="https://www.linkedin.com/in/jhanani-n-b4bab12b6" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-linkedin footer__social-icon'></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/JhananiNallasamy" target="_blank" class="home__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                </li>
+
+                <li>
+                        <a href="https://api.whatsapp.com/send?phone=+917904662267&text=Hey there!" target="_blank"
+                            class="contact__button" style="display: inline-block; width: 42px; height: 34px;">
+                            <div class="contact__card" style="width: 100%; height: 100%; padding: 5px;">
+                                <i class='bx bxl-whatsapp contact__card-icon' style="font-size: 20px;"></i>
+                            </div>
+                        </a>
+                </li>
+
+                <li>
+                    <div class="contact__card" style="width: 42px; height: 34px; padding: 5px; position: relative;">
+                        <i class='bx bx-mail-send contact__card-icon' style="font-size: 20px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></i>
+                        <a href="mailto:jhananinallasamy@gmail.com" target="_blank" 
+                            class="contact__button" style="display: inline-block; width: 100%; height: 100%; position: absolute; top: 0; left: 0;">
+                        </a>
+                    </div>
+                </li>
+                
+
+            </ul>
+
+            <span class="footer__copy">
+                &#169;  All rights reserved.
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+
+    <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+
+    <script src="js/script.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+  (function(){
+     emailjs.init("t97tG2sogETKoJks0");
+  })();
+</script>
+
+<script>
+  document.getElementById('button').addEventListener('click', function(event) {
+    event.preventDefault();
+    console.log('Form submitted successfully!');
+    var templateParams = {
+      name: document.getElementById('exampleFormControlInput1').value,
+      email: document.getElementById('exampleFormControlInput2').value,
+      message: document.getElementById('exampleFormControlInput3').value
+    };
+    if(!templateParams.name || !templateParams.email || !templateParams.message) {
+      alert('Please fill in all the fields.');
+      return;
+    }
+    emailjs.send('service_zwjzxio', 'template_vgeohvd', templateParams)
+      .then(function(response) {
+        console.log('SUCCESS!', response.status, response.text);
+        alert('Your message has been sent successfully!');
+      }, function(error) {
+        console.log('FAILED...', error);
+        alert('Failed to send your message. Please try again.');
+      });
+  });
+</script>
+</body>
+
+</html>
